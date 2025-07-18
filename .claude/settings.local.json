@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm:*)",
+      "Bash(mvn clean:*)",
+      "Bash(./mvnw clean compile test)",
+      "Bash(java:*)",
+      "Bash(find:*)",
+      "Bash(./mvnw clean test)",
+      "Bash(./mvnw test)",
+      "Bash(./mvnw test:*)",
+      "Bash(./mvnw clean compile)",
+      "Bash(timeout:*)",
+      "Bash(./mvnw spring-boot:run:*)",
+      "Bash(curl:*)",
+      "Bash(./mvnw clean compile -q)",
+      "Bash(taskkill:*)",
+      "Bash(cmd /c:*)"
+    ],
+    "deny": []
+  }
+}
